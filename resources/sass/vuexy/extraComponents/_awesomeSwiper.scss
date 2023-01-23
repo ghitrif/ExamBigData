@@ -1,0 +1,19 @@
+/*=========================================================================================
+  File Name: _awesomeSwiper.scss
+  Description: Styles for awesome swiper plugin
+  ----------------------------------------------------------------------------------------
+  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+    Author: Pixinvent
+  Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+
+
+.swiper-pagination-bullet-active {
+  background: var(--vprimary) !important;
+}
+
+.swiper-pagination-progressbar {
+  .swiper-pagination-progressbar-fill {
+    background: var(--vprimary) !important;
+  }
+}

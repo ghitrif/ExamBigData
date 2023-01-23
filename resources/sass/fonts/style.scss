@@ -1,0 +1,1317 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?8c5tyx');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?8c5tyx#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?8c5tyx') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?8c5tyx') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?8c5tyx##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.el {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.times-circle {
+  &:before {
+    content: $times-circle; 
+  }
+}
+.email3 {
+  &:before {
+    content: $email3; 
+  }
+}
+.envelope1 {
+  &:before {
+    content: $envelope1; 
+  }
+}
+.videoEmail {
+  &:before {
+    content: $videoEmail; 
+  }
+}
+.thumbs-down {
+  &:before {
+    content: $thumbs-down; 
+  }
+}
+.thumbs-up {
+  &:before {
+    content: $thumbs-up; 
+  }
+}
+.git-branch {
+  &:before {
+    content: $git-branch; 
+  }
+}
+.git-pull-request {
+  &:before {
+    content: $git-pull-request; 
+  }
+}
+.mic {
+  &:before {
+    content: $mic; 
+  }
+}
+.mic-off {
+  &:before {
+    content: $mic-off; 
+  }
+}
+.smartphone {
+  &:before {
+    content: $smartphone; 
+  }
+}
+.tablet {
+  &:before {
+    content: $tablet; 
+  }
+}
+.video1 {
+  &:before {
+    content: $video1; 
+  }
+}
+.video-off {
+  &:before {
+    content: $video-off; 
+  }
+}
+.airplay {
+  &:before {
+    content: $airplay; 
+  }
+}
+.alert-circle {
+  &:before {
+    content: $alert-circle; 
+  }
+}
+.alert-triangle {
+  &:before {
+    content: $alert-triangle; 
+  }
+}
+.align-center {
+  &:before {
+    content: $align-center; 
+  }
+}
+.align-justify {
+  &:before {
+    content: $align-justify; 
+  }
+}
+.align-left {
+  &:before {
+    content: $align-left; 
+  }
+}
+.align-right {
+  &:before {
+    content: $align-right; 
+  }
+}
+.archive {
+  &:before {
+    content: $archive; 
+  }
+}
+.arrow-down-circle {
+  &:before {
+    content: $arrow-down-circle; 
+  }
+}
+.arrow-left {
+  &:before {
+    content: $arrow-left; 
+  }
+}
+.arrow-left-circle {
+  &:before {
+    content: $arrow-left-circle; 
+  }
+}
+.arrow-right {
+  &:before {
+    content: $arrow-right; 
+  }
+}
+.arrow-right-circle {
+  &:before {
+    content: $arrow-right-circle; 
+  }
+}
+.arrow-up-circle {
+  &:before {
+    content: $arrow-up-circle; 
+  }
+}
+.bar-chart {
+  &:before {
+    content: $bar-chart; 
+  }
+}
+.bar-chart-2 {
+  &:before {
+    content: $bar-chart-2; 
+  }
+}
+.bell {
+  &:before {
+    content: $bell; 
+  }
+}
+.bell-off {
+  &:before {
+    content: $bell-off; 
+  }
+}
+.book {
+  &:before {
+    content: $book; 
+  }
+}
+.book-open {
+  &:before {
+    content: $book-open; 
+  }
+}
+.bookmark {
+  &:before {
+    content: $bookmark; 
+  }
+}
+.briefcase {
+  &:before {
+    content: $briefcase; 
+  }
+}
+.camera {
+  &:before {
+    content: $camera; 
+  }
+}
+.check-circle {
+  &:before {
+    content: $check-circle; 
+  }
+}
+.chevron-down {
+  &:before {
+    content: $chevron-down; 
+  }
+}
+.chevron-left {
+  &:before {
+    content: $chevron-left; 
+  }
+}
+.chevron-right {
+  &:before {
+    content: $chevron-right; 
+  }
+}
+.chevron-up {
+  &:before {
+    content: $chevron-up; 
+  }
+}
+.chevrons-down {
+  &:before {
+    content: $chevrons-down; 
+  }
+}
+.chevrons-up {
+  &:before {
+    content: $chevrons-up; 
+  }
+}
+.chrome {
+  &:before {
+    content: $chrome; 
+  }
+}
+.circle {
+  &:before {
+    content: $circle; 
+  }
+}
+.code1 {
+  &:before {
+    content: $code1; 
+  }
+}
+.copy {
+  &:before {
+    content: $copy; 
+  }
+}
+.corner-up-left {
+  &:before {
+    content: $corner-up-left; 
+  }
+}
+.corner-up-right {
+  &:before {
+    content: $corner-up-right; 
+  }
+}
+.database {
+  &:before {
+    content: $database; 
+  }
+}
+.dollar-sign {
+  &:before {
+    content: $dollar-sign; 
+  }
+}
+.download-cloud {
+  &:before {
+    content: $download-cloud; 
+  }
+}
+.edit-2 {
+  &:before {
+    content: $edit-2; 
+  }
+}
+.edit-3 {
+  &:before {
+    content: $edit-3; 
+  }
+}
+.external-link {
+  &:before {
+    content: $external-link; 
+  }
+}
+.eye3 {
+  &:before {
+    content: $eye3; 
+  }
+}
+.film {
+  &:before {
+    content: $film; 
+  }
+}
+.filter {
+  &:before {
+    content: $filter; 
+  }
+}
+.folder1 {
+  &:before {
+    content: $folder1; 
+  }
+}
+.folder-minus {
+  &:before {
+    content: $folder-minus; 
+  }
+}
+.folder-plus {
+  &:before {
+    content: $folder-plus; 
+  }
+}
+.gift {
+  &:before {
+    content: $gift; 
+  }
+}
+.globe {
+  &:before {
+    content: $globe; 
+  }
+}
+.grid {
+  &:before {
+    content: $grid; 
+  }
+}
+.hard-drive {
+  &:before {
+    content: $hard-drive; 
+  }
+}
+.heart {
+  &:before {
+    content: $heart; 
+  }
+}
+.home {
+  &:before {
+    content: $home; 
+  }
+}
+.image1 {
+  &:before {
+    content: $image1; 
+  }
+}
+.layers {
+  &:before {
+    content: $layers; 
+  }
+}
+.layout {
+  &:before {
+    content: $layout; 
+  }
+}
+.link {
+  &:before {
+    content: $link; 
+  }
+}
+.lock {
+  &:before {
+    content: $lock; 
+  }
+}
+.mail {
+  &:before {
+    content: $mail; 
+  }
+}
+.maximize {
+  &:before {
+    content: $maximize; 
+  }
+}
+.menu {
+  &:before {
+    content: $menu; 
+  }
+}
+.minus {
+  &:before {
+    content: $minus; 
+  }
+}
+.more-horizontal {
+  &:before {
+    content: $more-horizontal; 
+  }
+}
+.more-vertical {
+  &:before {
+    content: $more-vertical; 
+  }
+}
+.paperclip {
+  &:before {
+    content: $paperclip; 
+  }
+}
+.pie-chart {
+  &:before {
+    content: $pie-chart; 
+  }
+}
+.plus {
+  &:before {
+    content: $plus; 
+  }
+}
+.plus-circle {
+  &:before {
+    content: $plus-circle; 
+  }
+}
+.refresh-ccw {
+  &:before {
+    content: $refresh-ccw; 
+  }
+}
+.rotate-ccw {
+  &:before {
+    content: $rotate-ccw; 
+  }
+}
+.rotate-cw {
+  &:before {
+    content: $rotate-cw; 
+  }
+}
+.save {
+  &:before {
+    content: $save; 
+  }
+}
+.scissors {
+  &:before {
+    content: $scissors; 
+  }
+}
+.search {
+  &:before {
+    content: $search; 
+  }
+}
+.send {
+  &:before {
+    content: $send; 
+  }
+}
+.server {
+  &:before {
+    content: $server; 
+  }
+}
+.settings {
+  &:before {
+    content: $settings; 
+  }
+}
+.share1 {
+  &:before {
+    content: $share1; 
+  }
+}
+.share-2 {
+  &:before {
+    content: $share-2; 
+  }
+}
+.shopping-bag {
+  &:before {
+    content: $shopping-bag; 
+  }
+}
+.shopping-cart {
+  &:before {
+    content: $shopping-cart; 
+  }
+}
+.sidebar {
+  &:before {
+    content: $sidebar; 
+  }
+}
+.sliders {
+  &:before {
+    content: $sliders; 
+  }
+}
+.square {
+  &:before {
+    content: $square; 
+  }
+}
+.star {
+  &:before {
+    content: $star; 
+  }
+}
+.tag {
+  &:before {
+    content: $tag; 
+  }
+}
+.tool {
+  &:before {
+    content: $tool; 
+  }
+}
+.trash {
+  &:before {
+    content: $trash; 
+  }
+}
+.trash-2 {
+  &:before {
+    content: $trash-2; 
+  }
+}
+.trending-up {
+  &:before {
+    content: $trending-up; 
+  }
+}
+.type {
+  &:before {
+    content: $type; 
+  }
+}
+.upload-cloud {
+  &:before {
+    content: $upload-cloud; 
+  }
+}
+.user {
+  &:before {
+    content: $user; 
+  }
+}
+.user-check {
+  &:before {
+    content: $user-check; 
+  }
+}
+.user-minus {
+  &:before {
+    content: $user-minus; 
+  }
+}
+.user-plus {
+  &:before {
+    content: $user-plus; 
+  }
+}
+.user-x {
+  &:before {
+    content: $user-x; 
+  }
+}
+.users {
+  &:before {
+    content: $users; 
+  }
+}
+.volume {
+  &:before {
+    content: $volume; 
+  }
+}
+.volume-1 {
+  &:before {
+    content: $volume-1; 
+  }
+}
+.volume-2 {
+  &:before {
+    content: $volume-2; 
+  }
+}
+.volume-x {
+  &:before {
+    content: $volume-x; 
+  }
+}
+.watch {
+  &:before {
+    content: $watch; 
+  }
+}
+.x {
+  &:before {
+    content: $x; 
+  }
+}
+.zoom-in {
+  &:before {
+    content: $zoom-in; 
+  }
+}
+.zoom-out {
+  &:before {
+    content: $zoom-out; 
+  }
+}
+.clock1 {
+  &:before {
+    content: $clock1; 
+  }
+}
+.mouse-pointer {
+  &:before {
+    content: $mouse-pointer; 
+  }
+}
+.youtube1 {
+  &:before {
+    content: $youtube1; 
+  }
+}
+.user1 {
+  &:before {
+    content: $user1; 
+  }
+}
+.users1 {
+  &:before {
+    content: $users1; 
+  }
+}
+.error_outline {
+  &:before {
+    content: $error_outline; 
+  }
+}
+.error {
+  &:before {
+    content: $error; 
+  }
+}
+.videoEmail1 {
+  &:before {
+    content: $videoEmail1; 
+  }
+}
+.mail2 {
+  &:before {
+    content: $mail2; 
+  }
+}
+.alert-circle1 {
+  &:before {
+    content: $alert-circle1; 
+  }
+}
+.alert-triangle1 {
+  &:before {
+    content: $alert-triangle1; 
+  }
+}
+.film1 {
+  &:before {
+    content: $film1; 
+  }
+}
+.contacts-svgrepo-com {
+  &:before {
+    content: $contacts-svgrepo-com; 
+  }
+}
+.promoters {
+  &:before {
+    content: $promoters;     
+    color: #ffe100;
+  }
+}
+.detractor {
+  &:before {
+    content: $detractor;     
+    color: #ffe100;
+  }
+}
+.passive {
+  &:before {
+    content: $passive;     
+    color: #ffe100;
+  }
+}
+.folder2 {
+  &:before {
+    content: $folder2; 
+  }
+}
+.button1 {
+  &:before {
+    content: $button1; 
+  }
+}
+.action {
+  &:before {
+    content: $action; 
+  }
+}
+.buy-button {
+  &:before {
+    content: $buy-button; 
+  }
+}
+.youtube {
+  &:before {
+    content: $youtube; 
+  }
+}
+.button .path1 {
+  &:before {
+    content: $button-path1;  
+    color: rgba(115, 103, 240, 0.67);  
+    opacity: 0.7;
+  }
+}
+.button .path2 {
+  &:before {
+    content: $button-path2;  
+    margin-left: -1em;  
+    color: rgb(115, 103, 240);
+  }
+}
+.branding {
+  &:before {
+    content: $branding; 
+  }
+}
+.form {
+  &:before {
+    content: $form; 
+  }
+}
+.online-video {
+  &:before {
+    content: $online-video; 
+  }
+}
+.mail-send {
+  &:before {
+    content: $mail-send; 
+  }
+}
+.email {
+  &:before {
+    content: $email; 
+  }
+}
+.message {
+  &:before {
+    content: $message; 
+  }
+}
+.stop2 {
+  &:before {
+    content: $stop2; 
+  }
+}
+.stop {
+  &:before {
+    content: $stop; 
+  }
+}
+.pause2 {
+  &:before {
+    content: $pause2; 
+  }
+}
+.pause {
+  &:before {
+    content: $pause; 
+  }
+}
+.play-button {
+  &:before {
+    content: $play-button; 
+  }
+}
+.play-button-arrowhead {
+  &:before {
+    content: $play-button-arrowhead; 
+  }
+}
+.video-player2 {
+  &:before {
+    content: $video-player2; 
+  }
+}
+.video {
+  &:before {
+    content: $video; 
+  }
+}
+.multimedia {
+  &:before {
+    content: $multimedia; 
+  }
+}
+.video-player3 {
+  &:before {
+    content: $video-player3; 
+  }
+}
+.video-player {
+  &:before {
+    content: $video-player; 
+  }
+}
+.code {
+  &:before {
+    content: $code; 
+  }
+}
+.map {
+  &:before {
+    content: $map; 
+  }
+}
+.timer2 {
+  &:before {
+    content: $timer2; 
+  }
+}
+.stopwatch {
+  &:before {
+    content: $stopwatch; 
+  }
+}
+.website {
+  &:before {
+    content: $website; 
+  }
+}
+.share {
+  &:before {
+    content: $share; 
+  }
+}
+.list {
+  &:before {
+    content: $list; 
+  }
+}
+.image {
+  &:before {
+    content: $image; 
+  }
+}
+.promotion {
+  &:before {
+    content: $promotion; 
+  }
+}
+.megaphone {
+  &:before {
+    content: $megaphone; 
+  }
+}
+.sticky-notes {
+  &:before {
+    content: $sticky-notes; 
+  }
+}
+.text-box {
+  &:before {
+    content: $text-box; 
+  }
+}
+.message3 {
+  &:before {
+    content: $message3; 
+  }
+}
+.mail-send1 {
+  &:before {
+    content: $mail-send1; 
+  }
+}
+.email2 {
+  &:before {
+    content: $email2; 
+  }
+}
+.message2 {
+  &:before {
+    content: $message2; 
+  }
+}
+.eye {
+  &:before {
+    content: $eye; 
+  }
+}
+.vision {
+  &:before {
+    content: $vision; 
+  }
+}
+.view {
+  &:before {
+    content: $view; 
+  }
+}
+.hourglass {
+  &:before {
+    content: $hourglass; 
+  }
+}
+.timer {
+  &:before {
+    content: $timer; 
+  }
+}
+.loading {
+  &:before {
+    content: $loading; 
+  }
+}
+.chronometer {
+  &:before {
+    content: $chronometer; 
+  }
+}
+.timer1 {
+  &:before {
+    content: $timer1; 
+  }
+}
+.clock {
+  &:before {
+    content: $clock; 
+  }
+}
+.one-finger-click3 {
+  &:before {
+    content: $one-finger-click3; 
+  }
+}
+.one-finger-click4 {
+  &:before {
+    content: $one-finger-click4; 
+  }
+}
+.eye1 {
+  &:before {
+    content: $eye1; 
+  }
+}
+.eye2 {
+  &:before {
+    content: $eye2; 
+  }
+}
+.one-finger-click {
+  &:before {
+    content: $one-finger-click; 
+  }
+}
+.one-finger-click2 {
+  &:before {
+    content: $one-finger-click2; 
+  }
+}
+.one-finger-click1 {
+  &:before {
+    content: $one-finger-click1; 
+  }
+}
+.one-finger-click11 {
+  &:before {
+    content: $one-finger-click11; 
+  }
+}
+.chat {
+  &:before {
+    content: $chat; 
+  }
+}
+.envelope2 {
+  &:before {
+    content: $envelope2; 
+  }
+}
+.envelope {
+  &:before {
+    content: $envelope; 
+  }
+}
+.mail1 {
+  &:before {
+    content: $mail1; 
+  }
+}
+.email1 {
+  &:before {
+    content: $email1; 
+  }
+}
+.letter {
+  &:before {
+    content: $letter; 
+  }
+}
+.message1 {
+  &:before {
+    content: $message1; 
+  }
+}
+.error1 {
+  &:before {
+    content: $error1; 
+  }
+}
+.mail-error {
+  &:before {
+    content: $mail-error; 
+  }
+}
+.mail-error1 {
+  &:before {
+    content: $mail-error1; 
+  }
+}
+.back-arrow {
+  &:before {
+    content: $back-arrow; 
+  }
+}
+.vimeo-1 {
+  &:before {
+    content: $vimeo-1; 
+  }
+}
+.letter-p {
+  &:before {
+    content: $letter-p; 
+  }
+}
+.giphy {
+  &:before {
+    content: $giphy; 
+  }
+}
+.video-files {
+  &:before {
+    content: $video-files; 
+  }
+}
+.Wistia-logo {
+  &:before {
+    content: $Wistia-logo;     
+    color: #7367f0;
+  }
+}
+.dropbox {
+  &:before {
+    content: $dropbox; 
+  }
+}
+.computer-screen {
+  &:before {
+    content: $computer-screen; 
+  }
+}
+.monitor {
+  &:before {
+    content: $monitor; 
+  }
+}
+.webcam {
+  &:before {
+    content: $webcam; 
+  }
+}
+.authorizenet .path1 {
+  &:before {
+    content: $authorizenet-path1;  
+    color: rgb(5, 93, 119);
+  }
+}
+.authorizenet .path2 {
+  &:before {
+    content: $authorizenet-path2;  
+    margin-left: -1em;  
+    color: rgb(18, 169, 204);
+  }
+}
+.stripe .path1 {
+  &:before {
+    content: $stripe-path1;  
+    color: rgb(103, 114, 229);
+  }
+}
+.stripe .path2 {
+  &:before {
+    content: $stripe-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.paypal .path1 {
+  &:before {
+    content: $paypal-path1;  
+    color: rgb(3, 169, 244);
+  }
+}
+.paypal .path2 {
+  &:before {
+    content: $paypal-path2;  
+    margin-left: -1em;  
+    color: rgb(40, 53, 147);
+  }
+}
+.list1 {
+  &:before {
+    content: $list1; 
+  }
+}
+.list-interface-symbol {
+  &:before {
+    content: $list-interface-symbol; 
+  }
+}
+.calendar {
+  &:before {
+    content: $calendar; 
+  }
+}
+.question {
+  &:before {
+    content: $question; 
+  }
+}
+.credit-card {
+  &:before {
+    content: $credit-card; 
+  }
+}
+.smiling-emoticon-square-face {
+  &:before {
+    content: $smiling-emoticon-square-face; 
+  }
+}
+.microphone {
+  &:before {
+    content: $microphone; 
+  }
+}
+.video-call {
+  &:before {
+    content: $video-call; 
+  }
+}
+.video-chat {
+  &:before {
+    content: $video-chat; 
+  }
+}
+.text-height {
+  &:before {
+    content: $text-height; 
+  }
+}
+.text-width {
+  &:before {
+    content: $text-width; 
+  }
+}
+.font-size {
+  &:before {
+    content: $font-size; 
+  }
+}
+.bold {
+  &:before {
+    content: $bold; 
+  }
+}
+.underline {
+  &:before {
+    content: $underline; 
+  }
+}
+.italic {
+  &:before {
+    content: $italic; 
+  }
+}
+.strikethrough {
+  &:before {
+    content: $strikethrough; 
+  }
+}
+.clear-formatting {
+  &:before {
+    content: $clear-formatting; 
+  }
+}
+.paragraph-left {
+  &:before {
+    content: $paragraph-left; 
+  }
+}
+.paragraph-center {
+  &:before {
+    content: $paragraph-center; 
+  }
+}
+.paragraph-right {
+  &:before {
+    content: $paragraph-right; 
+  }
+}
+.paragraph-justify {
+  &:before {
+    content: $paragraph-justify; 
+  }
+}
+.indent-increase {
+  &:before {
+    content: $indent-increase; 
+  }
+}
+.indent-decrease {
+  &:before {
+    content: $indent-decrease; 
+  }
+}
+.clock2 {
+  &:before {
+    content: $clock2; 
+  }
+}
+.stopwatch1 {
+  &:before {
+    content: $stopwatch1; 
+  }
+}
+.bubble {
+  &:before {
+    content: $bubble; 
+  }
+}
+.bubbles {
+  &:before {
+    content: $bubbles; 
+  }
+}
+.bubbles2 {
+  &:before {
+    content: $bubbles2; 
+  }
+}
+.bubble2 {
+  &:before {
+    content: $bubble2; 
+  }
+}
+.bubbles3 {
+  &:before {
+    content: $bubbles3; 
+  }
+}
+.bubbles4 {
+  &:before {
+    content: $bubbles4; 
+  }
+}
+.spinner3 {
+  &:before {
+    content: $spinner3; 
+  }
+}
+.spinner6 {
+  &:before {
+    content: $spinner6; 
+  }
+}
+.spinner7 {
+  &:before {
+    content: $spinner7; 
+  }
+}
+
