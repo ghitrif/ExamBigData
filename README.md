@@ -17,9 +17,11 @@ git branch -M main
 git push -uf origin main
 ```
 
+#Docker
+```
+Run docker-compose up to install  run containers.
+```
 
-
-## Test and Deploy
 
 
 
