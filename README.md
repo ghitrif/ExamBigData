@@ -1,5 +1,7 @@
 # Examen Big data 2
 
+Le tableaux de bord permit d'afficher  predicted status des equipements en panne en temps réel.
+
 project with laravel / vue js
 
 ![alt text](https://github.com/ghitrif/ExamBigData/blob/main/gg.jpeg)
